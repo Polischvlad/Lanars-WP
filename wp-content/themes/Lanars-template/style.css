@@ -1,0 +1,435 @@
+/*   
+Theme Name: Lanars-template
+Theme URI: 
+Version: 1.0
+Tags: I wanna, working , with guys, of lanars, company, really
+Description: Small template with basic functionallity
+Author: Polischuk Vladyslav
+Author URI: polischvlad@gmail.com
+*/
+
+
+@media (min-width: 979px) { 
+	ul.nav li.dropdown.show-on-hover:hover > ul.dropdown-menu { /* для раскрывания субменю по наведению */
+		display: block;
+	}
+	.comment-list .children { /* для комментов */
+		padding: 0;
+		margin-left: 74px;
+		padding-bottom: 15px;
+	}
+	.comment-list .media {
+		margin-top: 0;
+	}
+    
+/*  .navbar-default {
+        background-color: transparent;
+        border-color: none;
+        border:none;
+    } 
+*/
+    
+  
+}
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+article {
+    margin-bottom: 20px;
+    background: #f8f8f8;
+    border: none;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.07), 0 2px 15px rgba(84,96,103,.25);
+    padding:10px;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+.footer-wrapper{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+header , footer {
+    background-color: #f8f8f8;
+}
+
+    .navbar-default {
+        background-color: transparent;
+        border-color: rgba(0,0,0,.25);
+        margin: 0;
+        border: none;
+    }  
+
+
+/*  LOGIN FORM  STYLES START*/
+
+    .login #login_error,.login .message {
+        border-left: 4px solid #00a0d2;
+        padding: 12px;
+        margin-left: 0;
+        margin-bottom: 20px;
+        background-color: #fff;
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,.1)
+    }
+
+    .login #login_error {
+        border-left-color: #dc3232
+    }
+
+    .userform p.submit,.login-action-lostpassword p.submit {
+        border: none;
+        margin: -10px 0 20px
+    }
+
+
+
+    .login * {
+        margin: 0;
+        padding: 0
+    }
+
+    .login .password-input-wrapper {
+        display: table
+    }
+
+    .login .input.password-input {
+        display: table-cell;
+        margin: 0
+    }
+
+    .login .pw-weak {
+        margin-bottom: 15px
+    }
+
+    .login .button.button-secondary {
+        display: table-cell;
+        border-radius: 0;
+        vertical-align: middle
+    }
+
+    form.userform {
+        margin: 0 auto 20px;
+        width: inherit;
+        background: #f8f8f8;
+        border:  none;
+        padding: 25px;
+        box-shadow: 0 0 0 1px rgba(0,0,0,.07), 0 2px 15px rgba(84,96,103,.25);
+    }
+
+    .login form {
+        margin-top: 20px;
+        margin-left: 0;
+        padding: 26px 24px 46px;
+        background: #fff;
+        box-shadow: 0 1px 3px rgba(0,0,0,.13)
+    }
+
+    .userform input[type="text"],  .userform  input[type="password"],  .userform  input[type="submit"] , 
+    .userform  input[type="email"] {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
+        position: relative;
+    }
+
+    .login form .forgetmenot {
+        font-weight: 400;
+        float: left;
+        margin-bottom: 0
+    }
+
+    .login .button-primary {
+        float: right
+    }
+
+    #login form p {
+        margin-bottom: 0
+    }
+
+    #login form p.submit {
+        margin: 0;
+        padding: 0
+    }
+
+    .login label {
+        color: #72777c;
+        font-size: 14px
+    }
+
+    .login form .forgetmenot label {
+        font-size: 12px;
+        line-height: 19px
+    }
+
+    .login h1 {
+        text-align: center
+    }
+
+    .login h1 a {
+        background-image: url(images/w-logo-blue.png?ver=20131202);
+        background-image: none,url(images/wordpress-logo.svg?ver=20131107);
+        background-size: 84px;
+        background-position: center top;
+        background-repeat: no-repeat;
+        color: #444;
+        height: 84px;
+        font-size: 20px;
+        line-height: 1.3em;
+        margin: 0 auto 25px;
+        padding: 0;
+        width: 84px;
+        text-indent: -9999px;
+        outline: 0;
+        display: block
+    }
+
+    #login {
+        width: 320px;
+        padding: 8% 0 0;
+        margin: auto
+    }
+
+    .login #backtoblog,.login #nav {
+        font-size: 13px;
+        padding: 0 24px
+    }
+
+    .login #nav {
+        margin: 24px 0 0
+    }
+
+    #backtoblog {
+        margin: 16px 0
+    }
+
+    .login #backtoblog a,.login #nav a {
+        text-decoration: none;
+        color: #555d66
+    }
+
+    .login #backtoblog a:hover,.login #nav a:hover,.login h1 a:hover {
+        color: #00a0d2
+    }
+
+    .login #backtoblog a:focus,.login #nav a:focus,.login h1 a:focus {
+        color: #124964
+    }
+
+    .login input[type=text] {
+        font-size: 24px;
+        width: 100%;
+        padding: 3px;
+        margin: 2px 6px 16px 0
+    }
+
+    .login form .input,.login form input[type=checkbox],.login input[type=text] {
+        background: #fbfbfb
+    }
+
+    .ie7 .login form .input,.ie8 .login form .input {
+        font-family: sans-serif
+    }
+
+    .login-action-rp input[type=text] {
+        box-shadow: none;
+        margin: 0
+    }
+
+    .login #pass-strength-result {
+        font-weight: 600;
+        margin: -1px 5px 16px 0;
+        padding: 6px 5px;
+        text-align: center;
+        width: 100%
+    }
+
+    body.interim-login {
+        height: auto
+    }
+
+    .interim-login #login {
+        padding: 0;
+        margin: 5px auto 20px
+    }
+
+    .interim-login.login h1 a {
+        width: auto
+    }
+
+    .interim-login #login_error,.interim-login.login .message {
+        margin: 0 0 16px
+    }
+
+    .interim-login.login form {
+        margin: 0
+    }
+
+a.forget-pass {
+    text-align: center;
+}
+
+a.forget-pass {
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+
+.userform input::last-child {
+    margin-bottom: 0;
+}
+
+select  {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 26px;
+}
+
+#registrationform {
+    background: #f8f8f8;
+    border: none;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.07), 0 2px 15px rgba(84,96,103,.25);
+    max-width: 320px;
+    width: 100%;
+    padding: 25px;
+    margin: auto;    
+}
+
+
+
+
+/*  LOGIN FORM  STYLES END*/
+
+
+
+
+
+@-ms-viewport {
+    width: device-width
+}
+
+@media screen and (max-height: 550px) {
+    #login {
+        padding:20px 0
+    }
+}
+
+@media screen and (max-width: 782px) {
+    .interim-login input[type=checkbox] {
+        height:16px;
+        width: 16px
+    }
+
+    .interim-login input[type=checkbox]:checked:before {
+        width: 16px;
+        font: 400 21px/1 dashicons;
+        margin: -3px 0 0 -4px
+    }
+}
+
+
+/**/
